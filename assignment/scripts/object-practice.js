@@ -5,12 +5,18 @@ console.log('***** Object Practice *****')
 /* 1. Create an object literal to represent you!
   - Give the object a 'firstName & (separate) 'lastName' property
   - Give it a boolean 'hasSiblings' property
-  - Give it  a numeric 'shoeCount' property
+  - Give it a numeric 'shoeCount' property
   - Also give it an array 'favThreeFoods'
 */
 const me = {
   // TODO - add properties here
+  firstName : 'Alina',
+  lastName : 'Trukhina',
+  hasSiblings : true,
+  shoeCount : 2,
+  favThreeFoods : ['smoked fish', 'borsh', 'pizza']
 };
+
 console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
